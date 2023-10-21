@@ -9,8 +9,10 @@ How to run:
 
    2.2 hadoop fs -mkdir /{YOUR DIR NAME}/input
    
-4. Move the data from local to HDFS: hadoop fs -put {PATH TO DATA IN LOCAL} {PATH TO DIRECTORY IN HDFS CREATED ABOVE}
-5. Use Hadoop Streaming to run the Map reduce code:
+4. Move the data from local to HDFS:
+
+   hadoop fs -put {PATH TO DATA IN LOCAL} {PATH TO DIRECTORY IN HDFS CREATED ABOVE}
+6. Use Hadoop Streaming to run the Map reduce code:
 
    Example:
 
