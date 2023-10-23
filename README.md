@@ -22,4 +22,6 @@ How to run:
 
    If there is many map-reduce phases, just replace the input dir of next step by output dir of last step
 
-7. Download the output from HDFS to local: hadoop fs -get {PATH TO OUTPUT DIR} {PATH TO DESIRED DIR IN LOCAL}
+7. Download the output from HDFS to local:
+
+   hadoop fs -get {PATH TO OUTPUT DIR} {PATH TO DESIRED DIR IN LOCAL}
